@@ -1,11 +1,7 @@
 import Cart from "./components/Cart";
-
 import ProductListing from "./components/ProductListing";
-
 import React, { lazy, Suspense } from "react";
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import ProtectedRoute from "./components/protectedRoute";
 import Login from "./components/Login";
 const CheckOut = React.lazy(() => import("./components/CheckOut"));
